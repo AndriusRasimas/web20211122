@@ -4,7 +4,15 @@ strong{
 p {
     color: brown!important;
 }
-
+/* klases selectorius*/
 .antras{
     color: coral !important;;
+}
+/*id selectorius*/
+#isskirtinis{
+    background-color: white;
+}
+/*atributu selektorius*/
+[style]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
