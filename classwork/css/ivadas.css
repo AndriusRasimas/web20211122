@@ -16,3 +16,21 @@ p {
 [style]{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+[type]{
+    background-color: yellow;
+}
+[type='text']{
+    box-shadow: 2px 2px 5px white;
+}
+[type$='t']{
+    height: 50px;
+}
+/* selektorius kuris naudoja * (all) yra viskam taciau dazniausiai naudojamas keisti srifta */
+/* isvardina kelis elementus */
+h1, p, .antras, #isskirtinis{
+    padding: 5px;
+}
+/*gylio selektoriai */
+form input{
+    font-size: 20pt;
+}
