@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Jūsų informacija</legend>
+        <table>
+            <tr>
+                <td><label for="name">Vardas:</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Pavardė:</label></td>
+                <td><input type="text" id="surname"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Klausimai</legend>
+        <p>
+            Kaip sužinojote apie mus? &nbsp;
+            <select name="" id="">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="friend">Draugo</option>
+            </select>
+        </p>
+        <p>
+        <div>Ar apsilankysite vėl?</div>
+        <div>
+
+            <label for="yes">Taip</label>
+            <input type="radio" name="evaluation" id="yes">
+
+            <label for="maybe">Galbūt</label>
+            <input type="radio" name="evaluation" id="maybe">
+
+            <label for="no">Ne</label>
+            <input type="radio" name="evaluation" id="no">
+
+        </div>
+        </p>
+        <p>
+        <div>
+            Ką manote apie kursą?
+        </div>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Rašykite viską ką galvojate"></textarea>
+        </div>
+        </p>
+        <p>
+        <div>
+            Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinę:
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="" id="csharp"><label for="csharp">C#</label></td>
+                    <td><input type="checkbox" name="" id="java"><label for="java">JAVA</label></td>
+                    <td><input type="checkbox" name="" id="php"><label for="php">PHP</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id="html"><label for="html">HTML</label></td>
+                    <td><input type="checkbox" name="" id="css"><label for="css">CSS</label></td>
+                    <td><input type="checkbox" name="" id="javascript"><label for="javascript">JavaScript</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="" id="python"><label for="python">Python</label></td>
+                    <td><input type="checkbox" name="" id="ruby"><label for="ruby">Ruby</label></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+        </p>
+
+        <input type="button" value="Siusti">
+    </fieldset>
+
+</body>
+
+</html>
