@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: static; /* toks pozicionavimas yra pagal nutylejima todel rasyti nebutina*/
+            width: 100px;
+            min-height: 100px;
+
+            /* border-width: 1px;
+            border-style: solid;
+            border-color: black; */
+
+            border: 1px solid black;
+        }
+
+        .pirmas{
+            position: absolute;
+            border-radius: 50px;
+            overflow: hidden;
+            padding: 5px;
+            z-index: 9999;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .antras{
+            position: relative;
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            top: 20px;
+            left: 20px;
+            /* margin ir padding veikia panasiai del left, right, top, bottom */
+
+            box-shadow: 0px 0px 5px red;
+            /* display: none; kad issimamas is konteksto
+            visibility: hidden; tik paslepiamas */
+        }
+
+        .trecias{
+            height: 100px;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pirmas">
+        <img src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg" alt="">
+    </div>
+    <div class="antras">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, molestias et in quo quam blanditiis nisi sint quod aspernatur! Quisquam, nesciunt dolore consequatur deleniti facere accusamus vitae sequi expedita. Facere.</div>
+    <div class="trecias">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore tempora temporibus repellendus voluptas, porro architecto? Hic natus voluptatibus magnam quaerat ipsum quod minus optio aliquid cupiditate odio, architecto ex magni!</div>
+</body>
+</html>

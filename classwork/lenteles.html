@@ -9,48 +9,60 @@
 </head>
 
 <body>
-    <h1>Lenteles</h1>
+    <h1>Lentelės</h1>
 
-    <table>
+    <table border="1" class="lentele">
         <tr>
             <th>Eil. Nr.</th>
-            <th>Pavarde, vardas</th>
+            <th>Pavardė, vardas</th>
             <th>Gimimo metai</th>
         </tr>
         <tr>
             <td>1</td>
-            <td>Jontaitis Jonas</td>
+            <td>Jonaitis Jonas</td>
             <td>1999</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Pakalnute Onute</td>
+            <td>Pakalnutė Onutė</td>
             <td>1999</td>
         </tr>
-        <!--Pildyti galima daug-->
-
-
+        <tr>
+            <td>3</td>
+            <td>Račkauskas Zigmantas</td>
+            <td>2000</td>
+        </tr>
     </table>
+
 
     <h2>Prisijungimo forma</h2>
 
     <form action="lenteles.html" method="POST">
-        <table>
+        <table class="lentele">
             <tr>
-                <td><label for="username">Username:</label></td>
-                <td><input type="text" name="user" id="username"></td>
+                <td>
+                    <label for="username">Vardas</label>
+                </td>
+                <td>
+                    <input type="text" name="user" id="username">
+                </td>
             </tr>
             <tr>
-                <td><label for="password">Password:</label></td>
-                <td><input type="password" name="pass" id="password"></td>
+                <td>
+                    <label for="password">Slaptažodis</label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="password">
+                </td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="Login"></td>
+                <td>
+                    <input type="submit" value="Prisijungti">
+                </td>
             </tr>
         </table>
     </form>
-
 </body>
 
 </html>

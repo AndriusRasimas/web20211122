@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5431211-f413-449b-8d8e-028d35747646" name="Changes" comment="" />
+    <list default="true" id="f5431211-f413-449b-8d8e-028d35747646" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/classwork/nuorodos.html" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/nuorodos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classwork/paveiksleliai.html" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/paveiksleliai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classwork/sarasai.html" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/sarasai.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
