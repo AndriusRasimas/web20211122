@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image{
+            width: 33%;
+        }
+
+        .image img{
+            width: 100%;
+        }
+
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (max-wi) {
+            .image{
+                width: 30%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="flex"></div>
+
+    <script src="custom.js"></script>
+    <script>
+        let images = getImages();
+
+        for (let index = 0; index < images.length; index++) {
+            const image = images[index];
+            let template = '<div class="image"><img src="{{photo}}" alt=""></div>';
+            template = template.replace('{{photo}}', image);
+
+            document.querySelector('.flex').innerHTML += template;
+        }
+
+    </script>
+</body>
+</html>
