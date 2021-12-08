@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .images img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .flex-child {
+            flex: 1;
+            border: 2px solid yellow;
+        }
+
+        .flex-child:first-child {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>{{headline}}</h2>
+
+    <div class="flex-container">
+
+        <div class="flex-child magenta">
+            <div class="iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n9xhJrPXop4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="flex-child green">
+            <div class="test">{{text}}</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
