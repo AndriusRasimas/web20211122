@@ -1,16 +1,23 @@
 .mySlidesFilm {
     display: none;
+    max-height: 500px;
 }
 .mySlidesTv{
     display: none;
+    max-height: 500px;
 }
 
 .mySlidesCinema{
     display: none;
+    max-height: 500px;
 }
 
 img {
-    vertical-align: middle;
+    object-fit: cover;
+    object-position: center;
+    max-height: 500px;
+    min-height: 500px;
+    height: 100%;
 }
         
 .slideshow-containerFilm {
