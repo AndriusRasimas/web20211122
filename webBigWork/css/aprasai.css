@@ -16,3 +16,38 @@ h2{
     font-weight: bold;
     font-family: inherit;
   }
+.flex-child.green{
+    background-color: rgb(255, 101, 132);
+}
+.statNavBar{
+    position: fixed;
+    padding: 20px;
+    background-color: rgb(80, 7, 21);
+    margin: 10px;
+    max-width: 80px;
+}
+.statNavBarTxt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.statNavBarTxt:hover{
+    overflow: visible;
+}
+.statNavBar a:hover{
+    padding: 5px;
+    background-color: rgb(80, 7, 21);
+}
+  .statNavBar a{
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.test{
+    padding: 20px;
+    color: black;
+    font-family: inherit;
+}
