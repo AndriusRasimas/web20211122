@@ -1,11 +1,11 @@
-body {
-    font-family: Verdana, sans-serif;
-}
-
-.mySlides {
+.mySlidesFilm {
     display: none;
 }
-.mySlides01{
+.mySlidesTv{
+    display: none;
+}
+
+.mySlidesCinema{
     display: none;
 }
 
@@ -13,38 +13,25 @@ img {
     vertical-align: middle;
 }
         
-.slideshow-container {
+.slideshow-containerFilm {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    padding: 10px;
 }
 
-.slideshow-container01{
+.slideshow-containerTv{
     max-width: 1000px;
     position: relative;
     margin: auto;
+    padding: 10px;
 }
-        
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-        
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-               
-.active {
-    background-color: #717171;
+
+.slideshow-containerCinema{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 10px;
 }
         
 .fade {
@@ -64,6 +51,4 @@ img {
     to {opacity: 1}
 }
         
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
+

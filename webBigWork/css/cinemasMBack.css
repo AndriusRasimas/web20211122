@@ -1,0 +1,56 @@
+.forum{
+    margin: 50px;
+    background-image: url(../photo/mainpage/cinemas/forum.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.multi{
+    margin: 50px;
+    background-image: url(../photo/mainpage/cinemas/multi.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.skalvija{
+    margin: 50px;
+    background-image: url(../photo/mainpage/cinemas/skalvija.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.maps{
+    padding: 5px;
+    display: inline;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+button {
+    border: none;
+    background-color: rgb(82, 7, 22);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    float: right;
+}
+
+button a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none; 
+}
+
+button:hover {
+    background-color: rgb(245, 35, 77);
+}

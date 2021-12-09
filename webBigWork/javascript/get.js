@@ -14,7 +14,6 @@ for (let index = 0; index < headlines.length; index++){
     template = template.replace('{{classh}}', classh);
 
     document.querySelector('.flex').innerHTML += template;
-
 }
 
 for (let index = 0; index < headlines.length; index++){

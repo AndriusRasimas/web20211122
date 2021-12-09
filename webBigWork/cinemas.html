@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/cinemasMBack.css">
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="index.html">Pagrindinis</a>
+    <a href="cinemas.html">Kino teatrai</a>
+    <div class="dropdown">
+      <button class="dropbtn">Aprasai</button>
+      <div class="dropdown-content">
+        <a href="films.html">Filmai</a>
+        <a href="tvseries.html">Serijalai</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="forum">
+    <div class="maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36908.40868688466!2d25.220573315209748!3d54.67837893846091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd94743a4f9ecb%3A0xddfc42e05ef7a180!2sForum%20Cinemas%20Vingis!5e0!3m2!1slt!2slt!4v1639055258126!5m2!1slt!2slt"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36908.40868688466!2d25.220573315209748!3d54.67837893846091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd915749555555%3A0x3661e5042e2c2b57!2sForum%20Cinemas%20Akropolis!5e0!3m2!1slt!2slt!4v1639055224500!5m2!1slt!2slt"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="mygtukasForum">
+      <button onclick="clickCounterForum()" type="button"><a href="https://www.forumcinemas.lt/" target="_blank">Eiti i
+          Forum Cinemas</a></button>
+    </div>
+  </div>
+
+  <div class="multi">
+    <div class="maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304.7402939475396!2d25.273203716015917!3d54.71419217907576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd91521e87907b%3A0x2eb6a10347edea33!2sMultikino!5e0!3m2!1slt!2slt!4v1639057426285!5m2!1slt!2slt"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="mygtukasMulti">
+      <button onclick="clickCounterMulti()" type="button"><a href="https://multikino.lt/" target="_blank">Eiti i
+          MultiKino</a></button>
+    </div>
+  </div>
+
+  <div class="skalvija">
+    <div class="maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.075559411028!2d25.275124216015275!3d54.69069798086536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940576b1f5f1%3A0xb31cfdc17d24e326!2sSkalvija!5e0!3m2!1slt!2slt!4v1639057453148!5m2!1slt!2slt"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="mygtukasSkalvija">
+      <button onclick="clickCounterSkalvija()" type="button"><a href="https://skalvija.lt/" target="_blank">Eiti i
+          Skalvija</a></button>
+    </div>
+  </div>
+
+  <div id="resultsForum"></div>
+  <div id="resultsMulti"></div>
+  <div id="resultsSkalvija"></div>
+
+  <script src="javascript/clickcountercinemas.js"></script>
+
+</body>
+
+</html>

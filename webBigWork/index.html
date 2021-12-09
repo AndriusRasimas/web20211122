@@ -14,49 +14,72 @@
 <body>
     <div class="navbar">
         <a href="index.html">Pagrindinis</a>
-        <a href="nuorodos.html">Nuorodos</a>
+        <a href="cinemas.html">Kino teatrai</a>
         <div class="dropdown">
-          <button class="dropbtn">Aprasai</button>
-          <div class="dropdown-content">
-            <a href="films.html">Filmai</a>
-            <a href="tvseries.html">Serijalai</a>
-          </div>
-        </div> 
+            <button class="dropbtn">Aprasai</button>
+            <div class="dropdown-content">
+                <a href="films.html">Filmai</a>
+                <a href="tvseries.html">Serijalai</a>
+            </div>
+        </div>
     </div>
 
-    <div class="slideshow-container">
+    <div class="slides">
 
-        <div class="mySlides fade">
-            <img src="photo/mainpage/films/dune.png" style="width:100%">
+        <div class="slideshow-containerFilm">
+
+            <div class="mySlidesFilm fade">
+                <img src="photo/mainpage/films/dune.png" style="width:100%">
+            </div>
+
+            <div class="mySlidesFilm fade">
+                <img src="photo/mainpage/films/housegucci.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlidesFilm fade">
+                <img src="photo/mainpage/films/SpiderManNoWayHome.jpg" style="width:100%">
+            </div>
+
         </div>
 
-        <div class="mySlides fade">
-            <img src="photo/mainpage/films/housegucci.jpeg" style="width:100%">
+        <div class="slideshow-containerTv">
+
+            <div class="mySlidesTv fade">
+                <img src="photo/mainpage/tvSeries/arcane.jfif" style="width:100%">>
+            </div>
+
+            <div class="mySlidesTv fade">
+                <img src="photo/mainpage/tvSeries/squidgame.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlidesTv fade">
+                <img src="photo/mainpage/tvSeries/witcher.jpg" style="width:100%">
+            </div>
+
         </div>
 
-        <div class="mySlides fade">
-            <img src="photo/mainpage/films/SpiderManNoWayHome.jpg" style="width:100%">
+        <div class="slideshow-containerCinema">
+
+            <div class="mySlidesCinema fade">
+                <img src="photo/mainpage/cinemas/forum.jpg" style="width:100%">>
+            </div>
+
+            <div class="mySlidesCinema fade">
+                <img src="photo/mainpage/cinemas/multi.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlidesCinema fade">
+                <img src="photo/mainpage/cinemas/skalvija.jpg" style="width:100%">
+            </div>
+
         </div>
 
     </div>
 
-    <div class="slideshow-container01">
+    <script src="javascript/slidefilm.js"></script>
+    <script src="javascript/slidetv.js"></script>
+    <script src="javascript/slidecinema.js"></script>
 
-        <div class="mySlides01 fade">
-            <img src="photo/mainpage/tvSeries/arcane.jfif" style="width:100%">>
-        </div>
-
-        <div class="mySlides01 fade">
-            <img src="photo/mainpage/tvSeries/squidgame.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides01 fade">
-            <img src="photo/mainpage/tvSeries/witcher.jpg" style="width:100%">
-        </div>
-
-    </div>
-
-    <script src="javascript/slide.js"></script>
 </body>
 
 </html>
